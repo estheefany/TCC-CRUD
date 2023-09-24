@@ -1,0 +1,15 @@
+body{
+    padding:0px;
+    margin:0px;
+    background-color: #f1f6fc;
+}
+
+label {
+    display:block;
+    font-weight: 600;
+}
+
+h1, h6, label{
+   color: rgb(41, 41, 41);
+}
+
