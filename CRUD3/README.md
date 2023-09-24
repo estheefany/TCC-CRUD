@@ -1,6 +1,3 @@
-### Instalação
+### CRUD DO MED.ONLINE -- PARA O RPP
 
-Extraia toda a pasta do projeto para htdocs do XAMPP
-Ex: c:/xampp/htdocs/NOME_DO_PROJETO
-
-Inicie o XAMPP e acesse o projeto.
+Esta última versão de agora, está com a tela inicial está adicionada, porém necessita de alguns(muitos) ajustes.
