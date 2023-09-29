@@ -20,8 +20,7 @@
 
     <button class='btn btn-primary col-12 col-md-3 mt-3'>Entrar</button>
     <br/>
-    <a class='col-12 col-md-3 mt-3' href="<?=route("autenticacao/recuperar_senha")?>">Esqueci a minha senha</a>
-    <a class='col-12 col-md-3 mt-3' href="<?=route("autenticacao/novo_usuario")?>">Novo cadastro</a>
+
 
 </form>
 

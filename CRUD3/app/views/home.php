@@ -16,7 +16,7 @@
     </script>
 
     <!-- CSS PESSOAL -->
-    <link rel="stylesheet" href="public/css/style.css">
+    <link rel="stylesheet" href="<?=assets("css/style.css")?>" />
 
     <!-- BOOSTRAP ICONES-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
@@ -38,12 +38,9 @@
                     <img id="logoInicio" src="public/imgs/logo.png" alt="logo" width="40" height="32"
                         viewBox="0 0 118 94">
                     <ul class="ul">
-                        <a href="index.html">Home</a>
-                        <a href="Tela-4-CONSULTAR.html">Consultar agendamento</a>
-                        <a href="index.html">Contato</a>
-
-                        <a style="color: white;" class=" nav-link" href="<?=route('autenticacao/logar')?>">Agendar
-                            Consulta</a>
+                        <div class="login">
+                             <button><a id="btn1" href="<?=route('autenticacao/index')?>">LOGIN</a></button>
+                        </div>
 
                         <!--<ul class="btn dropdown">
                     <a id="btn" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -135,7 +132,7 @@
                 <p></p>
             </div>
             <div class="login">
-                <button><a id="btn2" href="login.html">Login do Profissional da Saúde</a></button>
+                <button><a id="btn2" href="<?=route('autenticacao/index')?>">Login do Profissional da Saúde</a></button>
             </div>
         </div>
     </section>

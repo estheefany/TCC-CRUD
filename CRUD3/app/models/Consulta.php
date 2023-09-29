@@ -52,7 +52,7 @@ class Consulta extends Model {
     }
     
 
-    public function allFiltros($filtros){
+    public function allFiltros($filtros=[]){
         $sql = "SELECT consulta.* , medico.nome as medico_nome, paciente.nome as paciente_nome FROM {$this->table} 
         left join medico on medico.id = consulta.medico_id
         left join paciente on paciente.id = consulta.paciente_id";

@@ -15,7 +15,7 @@
     </label><br>
 
     <label class='col-md-6'>
-        CRM/CRO/CRE
+        Conselho Regional
         <input type="text" class="form-control" name="crm" value="<?=_v($data,"crm")?>">
     </label><br>
 
@@ -43,7 +43,7 @@
     <tr>
         <th>Editar</th>
         <th>Nome Completo</th>
-        <th>CRM/CRO/CRE</th>
+        <th>CRM/CRO/COREN</th>
         <th>Especialidade</th>
         <th>Deletar</th>
     </tr>

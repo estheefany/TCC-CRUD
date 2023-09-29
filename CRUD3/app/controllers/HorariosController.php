@@ -25,7 +25,7 @@ class HorariosController {
 		
 
 		#busca todos os registros
-		$send['lista'] = $model->all();
+		$send['lista'] = $model->allFiltros();
 
 		$modelmedico = new Medico();
 		$send['medicos'] = $modelmedico->all();

@@ -49,7 +49,10 @@ p{
     max-width: 1400px;
     margin: 0 auto;
     /*padding: 0 5%;*/
-    background-color: #5BB6E9;
+    background-color: #0abab5;
+    background-image: url(https://static-cse.canva.com/_next/static/assets/wave_w2881xh801_a775fc2518c0a6ca438299351b5d48a3faf59e7348ac4a6f5f88b3b68fd5a06a.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 
 header{
@@ -95,6 +98,12 @@ a, button, #btn{
    border: none;
 }
 
+button{
+   font-size: 14px;
+   background-color: #3d7dc7;
+   border-radius: 5px;
+}
+
 #btn, #btn2{
     font-size: 14px;
     background-color: #3d7dc7;
@@ -104,6 +113,14 @@ a, button, #btn{
     display: inline-block;
 }
 
+#btn1{
+   font-size: 14px;
+   background-color: #3d7dc7;
+   padding: 10px 20px;
+   border-radius: 5px;
+   cursor: pointer;
+   display: inline-block;
+}
 
 #btn:hover{
    text-decoration: underline;
@@ -120,6 +137,7 @@ a, button, #btn{
 }
 
 .banner .banner-text{
+   top: 200px;
    margin: 150px;
    /*...*/
 }

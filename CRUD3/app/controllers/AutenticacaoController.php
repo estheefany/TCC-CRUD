@@ -10,7 +10,7 @@ class AutenticacaoController {
     function index(){
 
         if (isset($_SESSION['user'])){
-            redirect($this->home);
+            redirect("consulta");
             die();
         }
 
