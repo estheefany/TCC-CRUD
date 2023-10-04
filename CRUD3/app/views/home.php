@@ -16,7 +16,7 @@
     </script>
 
     <!-- CSS PESSOAL -->
-    <link rel="stylesheet" href="<?=assets("css/style.css")?>" />
+    <link rel="stylesheet" href="<?=assets("css/home.css")?>" />
 
     <!-- BOOSTRAP ICONES-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
@@ -61,6 +61,7 @@
                 </div>
             </section>
         </div>
+        
         <!-- END CONTAINER-->
     </header>
     <br><br><br><br><br><br>
@@ -74,7 +75,7 @@
                 <p>Sem precisar sair de casa! Agende pelo celular ou pelo computador</p>
             </div>
             <div class="agenda-img">
-                <img src="public/imgs/img-agenda.png" alt="agenda-img">
+            <img src="public/imgs/agenda.png" alt="agenda-img">
             </div>
         </div>
         <!-- END CONTAINER -->
@@ -85,7 +86,7 @@
         <!-- CONTAINER -->
         <div class="container">
             <div class="agenda-img">
-                <img src="public/imgs/pilha-papel.png" alt="agenda-img">
+                <img src="public/imgs/papel.png" alt="agenda-img">
             </div>
             <div class="agenda-text">
                 <h3>Praticidade no atendimento</h3>
@@ -105,20 +106,19 @@
             <div class="cards">
                 <div class="card-item">
                     <i class="bi bi-box-arrow-in-right" style="color: #82dcff;"></i>
-                    <p>Acesse o botão "agendar consulta", logo em seguida você será direcionado a um formulário onde
-                        precisará que seja preenchido pelos seus dados para realizar o agendamento de sua consulta</p>
+                    <p>Vá em uma Unidade básica de Saúde e realize seu cadastro na plataforma</p>
                 </div>
 
                 <div class="card-item">
                     <i class="bi bi-calendar3" style="color: #82dcff;"></i>
-                    <p>Escolha a especialidade médica para a qual deseja ir e o dia da consulta</p>
+                    <p>Após isso, voce terá acesso ao sistema podendo assim escolher dentre os horários
+                     e especialidades disponíveis na sua UBS 
+                    </p>
                 </div>
 
                 <div class="card-item">
                     <i class="bi bi-check2" style="color: #82dcff;"></i>
-                    <p>Pronto, sua consulta está agendada! Você receberá um código para consultar as informações, basta
-                        acessar o botão localizado no cabeçalho do site.<br>
-                        Chegue cedo!</p>
+                    <p>Após a escolha, sua consulta estará agendada.</p>
                 </div>
             </div>
         </div>
