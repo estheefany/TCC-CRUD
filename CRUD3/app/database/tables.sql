@@ -39,3 +39,5 @@ CREATE TABLE IF NOT EXISTS consulta (
     paciente_id      INTEGER
 
 );
+
+<--1 pra muitos | consulta --> 
