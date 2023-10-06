@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
 
-    <link rel="shortcut icon" href="public/imgs/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="public/imgs/faviconn.ico" type="image/x-icon">
 
 
     <title>MED.ONLINE - Agendamentos de Consultas Médicas</title>
