@@ -7,9 +7,14 @@
     font-family: 'Source Sans Pro', sans-serif;
   }
 
-
+  .container{
+   position: relative;
+   max-width: 1200px;
+   width: 100%;
+}
 
 .container header{
+   text-align: center;
    font-size: 2rem;
    color: #333;
    font-weight: 500;
@@ -64,7 +69,7 @@
 
 .form button{
    height: 40px;
-   width: 100%;
+   width: 40%;
    color: white;
    font-size: 1rem;
    border: none;
@@ -75,6 +80,22 @@
    transition: all 0.2s ease;
    background-color: #0abab5;
 }
+
+.button{
+    height: 40px;
+   width: 40%;
+   color: white;
+   font-size: 1rem;
+   border: none;
+   margin-top: 20px;
+   cursor: pointer;
+   border-radius: 6px;
+   font-weight: 400;
+   transition: all 0.2s ease;
+   background-color: #0abab5;
+   text-decoration: none;
+}
+
 
 /* Responsive */
 

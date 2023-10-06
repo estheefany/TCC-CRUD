@@ -1,10 +1,9 @@
 <?php include 'layout-top.php' ?>
 
-<link rel="stylesheet" href="<?=assets("css/paci.css")?>" />
+<link rel="stylesheet" href="<?=assets("css/front.css")?>" />
 
 <section class="container">
     <header>CADASTRO DE PACIENTES</header>
-
     <form class="form" method='POST' action='<?=route('paciente/salvar/'._v($data,"id"))?>'>
         <div class="column">
                 <div class="input-box">
